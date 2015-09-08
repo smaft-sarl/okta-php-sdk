@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'host' => 'org.okta.com',
+    'api_key' => 'your_api_key',
+];

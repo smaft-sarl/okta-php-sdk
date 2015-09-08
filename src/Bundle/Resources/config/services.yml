@@ -1,0 +1,5 @@
+services:
+    smaft_okta_sdk.client:
+        class: Smaft\OktaSdk\OktaClient
+        arguments:
+            - null # Client config, Replaced by DI Extension

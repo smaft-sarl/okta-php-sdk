@@ -1,0 +1,26 @@
+{
+    "name": "smaft/okta-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Brault",
+            "email": "adrien.brault@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Smaft\\OktaSdk\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Smaft\\OktaSdk\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "guzzle/guzzle": "~3.0",
+        "symfony/config": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "symfony/framework-bundle": "~2.3"
+    }
+}
