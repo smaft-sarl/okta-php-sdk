@@ -13,7 +13,7 @@ do {
     if (null === $users) {
         $users = $client->listUser(null, null, 2);
     } else {
-        $users = $client->getUserCollectionNext($users);
+        $users = $client->listUserNextPage($users);
     }
 
     foreach ($users as $user) {

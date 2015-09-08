@@ -154,7 +154,7 @@ class OktaClient extends Client
      * @param  Collection        $collection
      * @return Collection|User[]
      */
-    public function getUserCollectionNext(Collection $collection)
+    public function listUserNextPage(Collection $collection)
     {
         $links = $collection->getLinks();
 
